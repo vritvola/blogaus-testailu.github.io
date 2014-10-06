@@ -1,0 +1,46 @@
+.sidebar {
+    *:first-child {
+        margin-top:0;
+    }
+
+    h4, h5 {
+        margin-bottom:0;
+    }
+
+    .none {
+        text-align: center;
+    }
+
+    .empty {
+        border:2px dashed $color-gray;
+        border-radius:6px;
+        font-size:0.75em;
+        line-height: $baseline;
+        padding:($baseline - 4px)/2 0;
+        width:auto;
+    }
+
+    .elsewhere {
+        a {
+            border:0;
+            color: $color-gray;
+            font-size: 30px;
+
+            &:hover {
+                color: $color-hover;
+            }
+        }
+
+        a + a {
+            margin-left:15px;
+        }
+
+        i {
+            display:inline-block;
+        }
+
+        span {
+            display:none;
+        }
+    }
+}

@@ -1,0 +1,13 @@
+url: http://blogaus-testailu.github.io
+title: Blogaüs-testailu
+description: Blogaüs-testailu
+paginate: 5
+paginate_path: "/:num"
+pygments: true
+markdown: rdiscount
+
+authors:
+  massimo:
+    name: Massimo Prencipe
+    email: mprencipe@gmail.com
+    url: mailto:mprencipe@gmail.com
